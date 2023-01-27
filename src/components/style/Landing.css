@@ -1,0 +1,78 @@
+:root {
+    --dark-purple:#202330;
+    --light-purple:#7b84aa;
+}
+
+.header{
+    display:grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background: linear-gradient(180deg, var(--dark-purple), var(--light-purple));
+}
+
+.header img{
+    width: 12rem;
+    margin-top: 10px;
+    border-radius: 80%;
+    justify-self: center;
+    align-self: flex-end;
+}
+
+.main-title{
+    justify-self: center;
+    text-align: center;
+    /* font-family: 'solitero', sans-serif; */
+}
+
+
+
+
+/* ççççççççççççççççççççççççççç----------icons------------ */
+
+
+.icon-wraper{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    overflow: hidden;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.item-1 {
+    background: url(../svg/mongoDB.svg) no-repeat;
+}
+.item-2 {
+    background: url(../svg/html.svg) no-repeat;
+}
+.item-3 {
+    background: url(../svg/python.svg) no-repeat;
+}
+.item-4 {
+    background: url(../svg/django.svg) no-repeat;
+}
+.item-5 {
+    background: url(../svg/css.svg) no-repeat;
+}
+.item-6 {
+    background: url(../svg/javascript.svg) no-repeat;
+}
+.item-7 {
+    background: url(../svg/react.svg) no-repeat;
+}
+.item-8 {
+    background: url(../svg/node.svg) no-repeat;
+}
+.item-9 {
+    background: url(../svg/redux.svg) no-repeat;
+}
+
+
+

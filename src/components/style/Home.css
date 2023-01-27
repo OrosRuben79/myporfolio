@@ -1,0 +1,54 @@
+
+.container{
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.card{
+    margin-top: 1px;
+
+}
+.card2{
+    padding-left: 40px;
+    margin-top: 130px;
+    
+
+}
+
+.card3{
+    margin-top: 90px;
+}
+
+
+
+.cardimagen img {
+    width:400px;
+    height: 400px;
+    /* padding: 20px; */
+    padding-left: 80px;
+     margin-top: 10px;
+     border-radius: 20%;
+     
+}
+
+.cardimagen2 img {
+    width:220px;
+    height: 720px;
+    padding: 30px;
+    /* padding-left: 85px; */
+    margin-top: 50px;
+    align-items: center;
+  
+     
+}
+
+.card-title{
+    text-align: center;
+}
+
+
+

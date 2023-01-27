@@ -1,0 +1,34 @@
+.footer{
+    max-width: 100%;
+    background-color:black;
+}
+
+.title{
+    text-align:center
+
+}
+
+.title h5 {
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.title span {
+    color: aliceblue;
+    /* text-align:center; */
+}
+
+.image {
+    margin-top: 30px;
+    padding-left: 115px;
+}
+
+.image h5 {
+    padding-left: 160px;
+    color: aliceblue;
+}
+
+.image a {
+    padding-left: 35px;
+    width: 50px;
+}
