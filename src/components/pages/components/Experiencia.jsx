@@ -41,7 +41,7 @@ const Experiencia = () => {
                         <h5 className="card-title">🧰 Tecnologías que uso</h5>
                         <p className="card-text">JavaScript || HTML  || CSS || NodeJS || Express || React.js  || Redux  || Sequelize || PostgreSQL  || MongoDB   </p>
                         <hr />
-                        <a href="https://www.soyhenry.com/" target="_blank" className="btn btn-primary">Sitio Web</a>
+                        <a href="https://www.soyhenry.com/"  className="btn btn-primary">Sitio Web</a>
                     </div>
                     <div class="card-footer text-muted">
                         <div className="row" >
@@ -79,7 +79,7 @@ const Experiencia = () => {
                         <h5 className="card-title">🧰 Tecnologías que uso</h5>
                         <p className="card-text">JavaScript || HTML  || CSS || NodeJS || Express || React  || Redux  || Sequelize || PostgreSQL  || MongoDB   || Django  || Python</p>
                         <hr />
-                            <a href="http://www.jus.mendoza.gov.ar/inicio" target="_blank" className="btn btn-primary" >Sitio Web</a>
+                            <a href="http://www.jus.mendoza.gov.ar/inicio"  className="btn btn-primary" >Sitio Web</a>
                     
                     </div>
                     <div class="card-footer text-muted">
@@ -118,7 +118,7 @@ const Experiencia = () => {
                         <h5 className="card-title">🧰 Tecnologías que usé</h5>
                         <p className="card-text"> HTML  || CSS || Excel || Adobe Audition || Filmora9 || Power Point || Word</p>
                         <hr />
-                        <a href="https://ciudaddemendoza.gob.ar/" target="_blank" className="btn btn-primary">Sitio Web</a>
+                        <a href="https://ciudaddemendoza.gob.ar/"  className="btn btn-primary">Sitio Web</a>
                     </div>
                     <div class="card-footer text-muted">
                         <div className="row" >
