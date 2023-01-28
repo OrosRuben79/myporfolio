@@ -11,6 +11,7 @@ import github from '../img/github.png'
 import gmail from '../img/gmail.png'
 import twiter from '../img/twiter.png'
 import whatsap from '../img/whatsap.png'
+
 import Particles from 'react-tsparticles';
 
 
@@ -185,9 +186,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className={styles.contGlobo}>
-                    {/* <img src={img} alt="LandingPage" /> */}
-                
-                <span>aca va codigo </span>
+                    
                 </div>
             </div>
         </>

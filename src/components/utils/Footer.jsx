@@ -16,7 +16,10 @@ export const Footer = () => {
                 <div className="col-md-6">
                     <div className="title">
                         <h5>Ruben Oros</h5>
-                        <span> || Full Stack Developer ||</span>
+                        <div><span>  Full Stack Developer </span></div>
+                        <div><span>  Técnico en Higiene y Seguridad Laboral.</span></div>
+                        
+                        
                     </div>
                 <br/>
            

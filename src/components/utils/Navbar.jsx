@@ -31,9 +31,9 @@ const Navbars = () => {
               <Link to="/educacion" className="nav-link active" >
                 <span aria-current="page" >Education</span>
               </Link>
-              <Link to="/aptitudes" className="nav-link active" >
+              {/* <Link to="/aptitudes" className="nav-link active" >
                 <span aria-current="page" >Aptitudes</span>
-              </Link>
+              </Link> */}
               <Link to="/proyectos" className="nav-link active" >
                 <span aria-current="page" >Projects</span>
               </Link>
