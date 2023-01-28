@@ -57,6 +57,9 @@ const Experiencia = () => {
                         </div>
                     </div>
                 </div>
+                <br />
+                <br />
+
                 <div className="card text-center">
                     <div className="card-header">
                         <h2>Poder Judicial de la Provincia de Mendoza</h2>
@@ -95,7 +98,6 @@ const Experiencia = () => {
                 </div>
                 <br />
                 <br />
-
                 <div class="card text-center">
                     <div class="card-header">
                         <h2>Municipalidad de la Cidad de Mendoza</h2>
