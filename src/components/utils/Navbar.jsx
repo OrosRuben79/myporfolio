@@ -32,7 +32,7 @@ const Navbars = () => {
                 <span aria-current="page" >Educación</span>
               </Link>
               <Link to="/proyectos" className="nav-link active" >
-                <span aria-current="page" >Projectos</span>
+                <span aria-current="page" >Proyectos</span>
               </Link>
             </ul>
             <div className='NavDrop'>
