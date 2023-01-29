@@ -23,32 +23,31 @@ const Navbars = () => {
 
             <ul className="navbar-nav   ">
               <NavLink to="/inicio" className="nav-link active" >
-                <span aria-current="page" >AboutMe</span>
+                <span aria-current="page" >SobbreMí</span>
               </NavLink>
               <Link to="/experiencia" className="nav-link active" >
-                <span aria-current="page" >Experience</span>
+                <span aria-current="page" >Experiencia</span>
               </Link>
               <Link to="/educacion" className="nav-link active" >
-                <span aria-current="page" >Education</span>
+                <span aria-current="page" >Educación</span>
               </Link>
-              {/* <Link to="/aptitudes" className="nav-link active" >
-                <span aria-current="page" >Aptitudes</span>
-              </Link> */}
               <Link to="/proyectos" className="nav-link active" >
-                <span aria-current="page" >Projects</span>
+                <span aria-current="page" >Projectos</span>
               </Link>
             </ul>
             <div className='NavDrop'>
 
-            <NavDropdown title="Contact" id="basic-nav-dropdown">
-              <NavDropdown.Item href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='_blank'>Gmail</NavDropdown.Item>
-              <NavDropdown.Item href="https://www.linkedin.com/in/ruben-oros-02616121a/" target='_blank'>Linkedin</NavDropdown.Item>
-              <NavDropdown.Item href="https://github.com/OrosRuben79" target='_blank'>GiHub</NavDropdown.Item>
-              <NavDropdown.Item href="https://twitter.com/ruben_oros1" target='_blank'>Twiter</NavDropdown.Item>
+            <NavDropdown title="Contacto" id="basic-nav-dropdown">
+                <NavDropdown.Item ><Link to="/aptitudes" className="nav-link active" >
+                <span aria-current="page" >CONTÁCTAME</span>
+              </Link></NavDropdown.Item>
                 <NavDropdown.Divider />
-                  <NavDropdown.Item href="https://wa.me/2615730454"  target='_blank'>
-                    Whatsap
-                  </NavDropdown.Item>
+                <NavDropdown.Item href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target='_blank'>Gmail</NavDropdown.Item>
+                <NavDropdown.Item href="https://www.linkedin.com/in/ruben-oros-02616121a/" target='_blank'>Linkedin</NavDropdown.Item>
+                <NavDropdown.Item href="https://github.com/OrosRuben79" target='_blank'>GiHub</NavDropdown.Item>
+                <NavDropdown.Item href="https://twitter.com/ruben_oros1" target='_blank'>Twiter</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                 <NavDropdown.Item href="https://wa.me/2615730454"  target='_blank'> Whatsap</NavDropdown.Item>
             </NavDropdown>
            
             </div>

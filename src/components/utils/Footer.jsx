@@ -26,7 +26,7 @@ export const Footer = () => {
                 </div>
                 <div className="col-md-6">
                     <div className="image">
-                        <h5>Contact</h5>
+                        
                     <a
                             href="https://www.linkedin.com/in/ruben-oros-02616121a/"
                             target="_blank"

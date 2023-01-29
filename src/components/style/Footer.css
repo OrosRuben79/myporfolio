@@ -19,16 +19,14 @@
 }
 
 .image {
-    margin-top: 30px;
-    padding-left: 115px;
+    margin-top: 40px;
+    padding-left: 105px;
 }
 
-.image h5 {
-    padding-left: 160px;
-    color: aliceblue;
-}
+
 
 .image a {
-    padding-left: 35px;
+   
+    padding-left: 30px;
     width: 50px;
 }

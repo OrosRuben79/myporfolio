@@ -18,7 +18,7 @@ const Experiencia = () => {
         <>
             <Navbars />
             <div className="container">
-                <h1>Experiencia Me</h1>
+                <h1>Mi Experiencia</h1>
                 <br />
                 <hr />
                 <br />
@@ -32,7 +32,7 @@ const Experiencia = () => {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title">Desempeño</h5>
-                        <p className="card-text">Desde que ingrese a capacitarme en HenryStudent he logrado fortalecer mis conocimientos, en el desarrollo de aplicaciones web implementando las tècnologias adquiridas. Tuve la oportunidad de desarrollar tanto mi proyecto individual como el proyecto final implementando las herramientas adquiridas y fortaleciendolas aún más gracias al intercambio de conceptos con el equipo de compañeros que conformamos para la creación de la aplicación web Henry`s Foods`.
+                        <p className="card-text">Desde que ingresé a capacitarme en HenryStudent he logrado fortalecer mis conocimientos en el desarrollo de aplicaciones web, implementando las tecnologías adquiridas. Tuve la oportunidad de desarrollar tanto mi proyecto individual como el proyecto final implementando las herramientas adquiridas y fortaleciéndolas aún más gracias al intercambio de conceptos con el equipo de compañeros que conformamos para la creación de la aplicación web Henry`s Foods`.
                         Tengo un perfil analista, estadístico y disfruto de crear documentación y procesos de automatización con el fin de brindar una solución a la problemática existente. Voy donde sea que pueda aportar soluciones a través del código. Creo que el destino no es un lugar al cuál llegar, sino una manera de transitar. Elijo aquellos procesos donde me sienta seguro pero desafiado, exigido pero también cuidado y premiado.</p>
                         <hr />
                         <h5 className="card-title">Aptitudes</h5>
@@ -70,8 +70,8 @@ const Experiencia = () => {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title">Desempeño</h5>
-                        <p className="card-text">Desde mi ingreso al Poder Jucial de la provincia de Mendoza me desempeño en el rol de Auxiliar Administrativo. Desde la llegada de la pandemia COVID-19 e integrado diferentes equipos de trabajo que por intermedio y através de la implementación de diferentes herramientas con las IT, permitieran continuar con el funcionamiento de la Justicia.  Este motivo me terminó acercando fuertemente al desarrollo web, actualmente me encuentro trabajando en una aplicación Frontend que le permita al usuario interctuar con el expediente digitalizado.
-                            Tambien he tenido la oportunidad de aportar soluciones a través de las IT, tales como la creación y el manejo de páginas web realizadas en wordpress (para eventos puntuales), análisis de datos estadísticos, elaboración de informes, creación automatizada de informes por intermedio de macros en excel, creación de dashboard en excel..</p>
+                        <p className="card-text">Desde mi ingreso al Poder Jucial de la provincia de Mendoza me desempeño en el rol de Auxiliar Administrativo. Con la llegada de la pandemia COVID-19 he integrado distintos equipos de trabajo que, por intermedio y a través de la implementación de diferentes herramientas con las IT, permitieran continuar con el funcionamiento de la Justicia.  Este motivo me terminó acercando fuertemente al desarrollo web. Actualmente me encuentro trabajando en una aplicación Frontend que le permita al usuario interctuar con el expediente digitalizado.
+                            También he tenido la oportunidad de aportar soluciones a través de las IT, tales como la creación y el manejo de páginas web realizadas en wordpress (para eventos puntuales), análisis de datos estadísticos, elaboración de informes, creación automatizada de informes por intermedio de macros en excel, creación de dashboard en excel..</p>
                         <hr />
                         <h5 className="card-title">Aptitudes</h5>
                         <p className="card-text"> · React.js · PosgressSQL · Boostrap · HTML · CSS · Desarrollo web · Estadística · Auditoría</p>
@@ -108,9 +108,9 @@ const Experiencia = () => {
                     </div>
                     <div className="card-body">
                         <h5 className="card-title"> Desempeño</h5>
-                        <p className="card-text">Desde mi ingreso a la Municipalidad de la provincia de Mendoza me desempeño en el rol de Administrativo y de profesor de Danzas Folklóricas. Cumplí funciones en la Secretaria de turismo y Cultura, y en la Escuela de Danzas de la Municipalidad de la Ciudad de Mendoza, realicé tareas administrativas desde la creación, planificación e implementación de proyectos culturales apuntados a fines sociales y de inclusión.
-                            Desarrolle aptitudes informáticas en la edición musical y la creación de diseños gráficos.
-                            Tambien he teniso la oportunidad de aportar soluciones a través de las IT, tales como la creación y el manejo de páginas web realizadas en HTML y CSS (para eventos puntuales), con el fin de publicitar los eventos organizados</p>
+                        <p className="card-text">Desde mi ingreso a la Municipalidad de la Ciudad de Mendoza me desempeñé en el rol de Administrativo y de profesor de Danzas Folklóricas. Cumplí funciones en la Secretaria de Turismo y Cultura, en la Secretaría de Gobierno y en la Escuela de Danzas  Municipal. Dentro de las funciones específicas como lìder de proyectos era la creación, planificación e implementación de proyectos culturales apuntados a fines sociales y de inclusión.
+                            Desarrollé aptitudes informáticas en la edición musical y la creación de diseños gráficos.
+                            También he tenido la oportunidad de aportar soluciones a través de las IT, tales como la creación y el manejo de páginas web realizadas en HTML y CSS (para eventos puntuales), con el fin de publicitar los eventos organizados</p>
                         <hr />
                         <h5 className="card-title">Aptitudes</h5>
                         <p className="card-text">  · HTML · CSS · Desarrollo web · Capacidad de análisis · Análisis del valor · Coaching </p>

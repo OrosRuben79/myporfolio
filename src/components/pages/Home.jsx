@@ -139,12 +139,12 @@ const Home = () => {
                         <div className={styles.Title}>Bienvenido a mi portafolio!</div>
                         <div className={styles.parrafo}>
                             En este espacio podrás conocer sobre:
-                            Quien soy, evaluar mi experiencia e interactuar con mis proyectos y contáctarme
+                            Quién soy, evaluar mi experiencia e interactuar con mis proyectos y contáctarme
                         </div>
                     </div>
                     <div className={styles.GlobalButton}>
                         <Link to="/inicio">
-                            <button className={styles.button}>Comencemos!</button>
+                            <button className={styles.button}>Ingresar</button>
                         </Link>
                     </div>
                     <div className={styles.links}>
