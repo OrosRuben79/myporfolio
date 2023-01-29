@@ -23,7 +23,7 @@ const Navbars = () => {
 
             <ul className="navbar-nav   ">
               <NavLink to="/inicio" className="nav-link active" >
-                <span aria-current="page" >SobbreMí</span>
+                <span aria-current="page" >SobreMí</span>
               </NavLink>
               <Link to="/experiencia" className="nav-link active" >
                 <span aria-current="page" >Experiencia</span>
