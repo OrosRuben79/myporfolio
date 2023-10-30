@@ -167,16 +167,9 @@ const Home = () => {
                             rel="noreferrer"
                         >
                             <img src={gmail} alt="gmail" className={styles.github} />
-                        </a>
+                        </a>            
                         <a
-                            href="https://twitter.com/ruben_oros1"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <img src={twiter} alt="twiter" className={styles.github} />
-                        </a>
-                        <a
-                            href="https://wa.me/2615730454"
+                            href="https://wa.me/2615730456"
                             class="whatsapp_float"
                             target="_blank"
                             rel="noopener noreferrer"
