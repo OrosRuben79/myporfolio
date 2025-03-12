@@ -1,19 +1,21 @@
+/* Variables */
 :root {
-    --dark-purple:#202330;
-    --light-purple:#7b84aa;
+    --dark-purple: #202330;
+    --light-purple: #7b84aa;
 }
 
-.header{
-    display:grid;
+/* Header */
+.header {
+    display: grid;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 90vh;
+    height:80vh;
     background: linear-gradient(180deg, var(--dark-purple), var(--light-purple));
 }
 
-.header img{
+.header img {
     width: 12rem;
     margin-top: 10px;
     border-radius: 80%;
@@ -21,58 +23,82 @@
     align-self: flex-end;
 }
 
-.main-title{
+.main-title {
     justify-self: center;
     text-align: center;
     /* font-family: 'solitero', sans-serif; */
 }
 
+/* Efecto de escritura */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 
+.typing-effect {
+    display: inline-block;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #f8f9fa; /* Efecto de cursor */
+    animation: typing 3s steps(30) 1s forwards, blink-caret 0.75s step-end infinite;
+}
 
+/* ----- Iconos ----- */
 
-/* ççççççççççççççççççççççççççç----------icons------------ */
-
-
-.icon-wraper{
+/* Contenedor de iconos */
+.icon-wraper {
     display: flex;
     justify-content: center;
     align-self: center;
     overflow: hidden;
+    flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas si es necesario */
+    gap: 20px; /* Espacio entre los íconos */
 }
 
 .item {
     width: 60px;
     height: 60px;
     border-radius: 100%;
-}
-
-.item-1 {
-    background: url(../svg/mongoDB.svg) no-repeat;
-}
-.item-2 {
-    background: url(../svg/html.svg) no-repeat;
-}
-.item-3 {
-    background: url(../svg/python.svg) no-repeat;
-}
-.item-4 {
-    background: url(../svg/django.svg) no-repeat;
-}
-.item-5 {
-    background: url(../svg/css.svg) no-repeat;
-}
-.item-6 {
-    background: url(../svg/javascript.svg) no-repeat;
-}
-.item-7 {
-    background: url(../svg/react.svg) no-repeat;
-}
-.item-8 {
-    background: url(../svg/node.svg) no-repeat;
-}
-.item-9 {
-    background: url(../svg/redux.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
+.item-1 { background: url(../svg/mongoDB.svg) no-repeat; }
+.item-2 { background: url(../svg/html.svg) no-repeat; }
+.item-3 { background: url(../svg/python.svg) no-repeat; }
+.item-4 { background: url(../svg/django.svg) no-repeat; }
+.item-5 { background: url(../svg/css.svg) no-repeat; }
+.item-6 { background: url(../svg/javascript.svg) no-repeat; }
+.item-7 { background: url(../svg/react.svg) no-repeat; }
+.item-8 { background: url(../svg/node.svg) no-repeat; }
+.item-9 { background: url(../svg/redux.svg) no-repeat; }
 
+/* Diseño responsive para los iconos */
+@media (max-width: 768px) {
+    .icon-wraper {
+        gap: 15px;
+    }
+
+    .item {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* En pantallas más pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+    .icon-wraper {
+        gap: 10px;
+    }
+
+    .item {
+        width: 40px;
+        height: 40px;
+    }
+}

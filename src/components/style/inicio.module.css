@@ -1,0 +1,25 @@
+/* Esto asegura que el contenido central siempre ocupe la pantalla entre el navbar y el footer */
+.contentWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding-bottom: 70px;
+  }
+  
+  .container {
+    flex: 1;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  /* Estilo básico para la cabecera de la página */
+  .container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

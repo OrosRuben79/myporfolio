@@ -1,19 +1,66 @@
-.navbar-nav{
+/* Navbar General */
+.navbar {
+    background-color: #343a40 !important; 
+  }
+    
+  .navbar-nav {
     padding-left: 300px;
-    font-size: 18px
-}
-
-.container-fluid h3{
-    padding-left:70px;
-}
-
-
-
-.NavDrop {
+    font-size: 18px;
+  }
+    
+    /* Estilos para el nombre de la marca */
+  .container-fluid h3 {
+    padding-left: 70px;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+    
+    /* Estilos para los enlaces del navbar */
+  .nav-link {
+    color: aqua;
+    font-weight: bold;
+  }
+    
+  .nav-link:hover {
+    color: #e9811d;
+    text-decoration: underline;
+  }
+    /* Estilos para la sección de Dropdown */
+  .NavDrop {
     padding-left: 180px;
     color: rgb(233, 128, 29);
-}
-
-.nav-link{
-    color:aqua;
-}
+  }
+  
+  .NavDrop .nav-link {
+    color: rgb(233, 128, 29);
+  }
+    
+    /* Estilos específicos para el dropdown */
+  .navbar .nav-dropdown-item {
+    color: #000;
+  }
+    
+  .navbar .nav-dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+    
+    /* Estilos para el Navbar en dispositivos pequeños (Responsivo) */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      padding-left: 0;
+      text-align: center;
+    }
+    .navbar-toggler {
+      background-color: #e9811d;
+    }
+    
+    .navbar-toggler-icon {
+      background-color: #fff;
+    }
+    
+    .container-fluid h3 {
+      padding-left: 0;
+    }
+  }
+    

@@ -1,9 +1,6 @@
 import './App.css';
 import  AppRoute  from './components/routes/AppRoute';
 
-
-
-
 function App() {
   return (
     <>
